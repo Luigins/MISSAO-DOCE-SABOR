@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Doce Sabor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Doce Sabor </h1>
+        <p>Doces feitos com carinho!</p>
+    </header>
+
+    <nav>
+        <a href="#cardapio">Cardápio</a>
+        <a href="#duvidas">Dúvidas</a>
+        <a href="#localizacao">Localização</a>
+        <a href="#encomenda">Encomendas</a>
+    </nav>
+
+    <section id="cardapio">
+        <h2>Nosso Cardápio</h2>
+        <p>Bolo de chocolate</p>
+        <p>Brigadeiros</p>
+        <p>Cupcakes</p>
+    </section>
+
+    <section id="duvidas">
+        <h2>Perguntas Frequentes</h2>
+
+        <details>
+            <summary>Como faço uma encomenda?</summary>
+            <p>Preencha o formulário abaixo.</p>
+        </details>
+
+        <details>
+            <summary>Quais pagamentos aceitamos?</summary>
+            <p>Pix, dinheiro e cartão.</p>
+        </details>
+    </section>
+
+    <section id="localizacao">
+        <h2>Onde estamos?</h2>
+        <p>Venha visitar nossa confeitaria!</p>
+        <a href="https://www.google.com/maps" target="_blank">
+            Ver mapa
+        </a>
+    </section>
+
+    <section id="encomenda">
+        <h2>Faça sua Encomenda</h2>
+
+        <form>
+            <label>Seu nome:</label>
+            <input type="text" required>
+
+            <label>Seu e-mail:</label>
+            <input type="email" required>
+
+            <label>Escolha seu doce:</label>
+            <select>
+                <option>Bolo de chocolate</option>
+                <option>Brigadeiros</option>
+                <option>Cupcakes</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Doce Sabor</p>
+    </footer>
+
+</body>
+</html>
